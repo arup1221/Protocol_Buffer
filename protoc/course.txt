@@ -1,0 +1,20 @@
+name: "Introduction to Protocol Buffers"
+authors: "Clement Jean"
+authors: "Linux Foundation"
+lectures: {
+    key: "Field Anatomy"
+    value: {
+        video: {
+            type: MP4
+            url: "an_url.com"
+        }
+    }
+}
+lectures: {
+    key: "Decode/Encode"
+    value: {
+        article: {
+            text: "Encode and Decode are great!"
+        }
+    }
+}

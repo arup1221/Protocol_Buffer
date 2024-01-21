@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Video{
+    enum Type{
+        UNSPECIFIED = 0;
+        MP4 = 1;
+        MOV = 2;
+    }
+    Type type = 1;
+    string url = 2;
+}

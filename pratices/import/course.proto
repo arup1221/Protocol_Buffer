@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "lecture.proto";
+
+message Course{
+    string name = 1;
+    repeated string author = 2;
+    map<string, Lecture> lecture = 3;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+enum ProductType{
+    PRODUCT_TYPE_UNSPECIFIED = 0;
+    PANTS = 1;
+    SHOES = 2;
+    SHIRT = 3;
+    ACCESSORIES = 4;
+    //...... on and on
+
+}
+
+message Product {
+    uint64 id = 1;
+    ProductType type = 2; // enum
+}
